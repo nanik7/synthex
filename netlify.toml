@@ -1,0 +1,41 @@
+# Netlify configuration for the SYNTHEX static site.
+# Pages are generated from src/ by build.mjs; the repository root is published.
+
+[build]
+  command = "node build.mjs"
+  publish = "."
+
+# Security headers for every response.
+# script-src hash = sha256 of the inline no-js script in src/partials/head.html.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'sha256-OuZY6WzJOIh2C89ThsUSxQtxIJomDP4jHuL8NXL3o5c=' https://www.googletagmanager.com; style-src 'self'; img-src 'self' data: https://www.googletagmanager.com https://*.google-analytics.com; font-src 'self'; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=()"
+    Cross-Origin-Opener-Policy = "same-origin"
+
+# Long cache for immutable assets; HTML stays revalidated by default
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+# Source templates must never be served
+[[redirects]]
+  from = "/src/*"
+  to = "/404.html"
+  status = 404

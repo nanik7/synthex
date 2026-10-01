@@ -1,0 +1,11 @@
+{
+  "name": "synthex-site",
+  "private": true,
+  "type": "module",
+  "description": "SYNTHEX agency website — static HTML/CSS/JS, built from src/ by build.mjs",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "npx --yes serve -l 5174 .",
+    "validate": "npx --yes html-validate index.html work.html contact.html privacy.html 404.html en/index.html en/work.html en/contact.html en/privacy.html"
+  }
+}

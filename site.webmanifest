@@ -1,0 +1,11 @@
+{
+  "name": "SYNTHEX",
+  "short_name": "SYNTHEX",
+  "icons": [
+    { "src": "/assets/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ],
+  "theme_color": "#05020a",
+  "background_color": "#05020a",
+  "display": "browser"
+}

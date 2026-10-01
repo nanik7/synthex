@@ -1,0 +1,55 @@
+# Project Overview
+Act as a Senior Frontend Developer and UI/UX Designer. Build a high-converting B2B agency landing page for my web design business, "SYNTHEX". The target audience is small-to-medium businesses (Hotels, Restaurants, and Salons) in Georgia. 
+
+Tech Stack: HTML5, Tailwind CSS (via CDN), and Vanilla JavaScript. No complex frameworks.
+
+# Design System & Aesthetics
+The design must be a premium, modern "Dark Mode" SaaS aesthetic.
+
+1.  **Color Palette (Strictly based on the provided assets):**
+    *   **Global Background:** Deep dark purple/black `#05020A` to blend seamlessly with the background image.
+    *   **Primary Accent / Glow:** Electric Purple `#8A2BE2` (extracted from the background wave).
+    *   **Secondary Accent:** Deep Violet `#4B0082` (extracted from the logo's 3D element).
+    *   **Text Colors:** Primary headings in Pure White `#FFFFFF`. Paragraphs and secondary text in Light Muted Purple/Gray `#A098B0`.
+    *   **Card/Container Backgrounds:** `#0D0714` with subtle `#8A2BE2` borders on hover.
+
+2.  **Typography:**
+    *   Use a clean, modern sans-serif font (e.g., 'Inter' or 'Plus Jakarta Sans' via Google Fonts).
+
+# Assets Integration
+*   **Logo:** Use the provided logo image (`Gemini_Generated_Image_1cnved1cnved1cnv.jpg`). Crop or mask it via CSS to show only the 3D infinity symbol and the word "SYNTHEX". Hide the "Intelligent AI Synthesis" subtext.
+*   **Hero Background:** Use the provided image (`background.webp`) as the absolute background of the Hero section. It features a glowing purple wave. Ensure it spans the full width and blends nicely into the dark background of the subsequent sections using a CSS gradient fade (`bg-gradient-to-b`).
+
+# Page Architecture & Functionality
+
+## 1. Navbar (Sticky & Glassmorphism)
+*   Left: SYNTHEX logo.
+*   Center: Links (Services, Process, Portfolio).
+*   Right: "Contact Us" button (Solid purple background, white text).
+*   Style: Backdrop-blur (`backdrop-blur-md`), semi-transparent dark background.
+
+## 2. Dynamic Hero Section (Tabbed)
+*   **Background:** The `background.webp` image with `object-cover`.
+*   **Navigation Tabs (Top of Hero content):** 3 pill-shaped buttons: "Hotels", "Restaurants", "Salons".
+*   **Dynamic Content (JavaScript):** When a tab is clicked, the Hero text should smoothly fade and change:
+    *   *Hotel:* "Increase Direct Bookings. Stop paying high commissions. Get a fast website with an integrated booking system."
+    *   *Restaurant:* "Digital Menus & Table Reservations. Attract more guests with a mobile-optimized experience."
+    *   *Salon:* "Automate Your Appointments. Allow clients to book 24/7. Save time and increase revenue."
+*   **Call to Action (CTA):** "Get Started" button (Purple glow effect: `shadow-[0_0_15px_#8A2BE2]`).
+
+## 3. "Why Choose Us" Section
+*   3 Grid Cards (Mobile-Optimized, Lightning Fast, Ready Integrations).
+*   Cards should have a dark background `#0D0714` and hover effects (slight lift and purple border). Use simple SVG icons for each.
+
+## 4. The Process Section
+*   A simple horizontal or vertical timeline with 3 steps: 1. Discovery 2. Development 3. Launch.
+
+## 5. Contact / Lead Gen Section
+*   A clean, modern form.
+*   Fields: Name, Phone Number, Dropdown for Business Type (Hotel, Restaurant, Salon).
+*   Submit button that spans full width.
+
+# Code Requirements
+*   Write clean, semantic HTML.
+*   Make it 100% fully responsive (Mobile-first approach).
+*   Provide the complete, single-file HTML code containing the CSS (Tailwind classes) and the necessary JS script for the Hero tabs.

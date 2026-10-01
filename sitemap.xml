@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://synthex-info.net/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://synthex-info.net/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://synthex-info.net/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://synthex-info.net/contact.html"/>
+  </url>
+  <url>
+    <loc>https://synthex-info.net/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://synthex-info.net/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://synthex-info.net/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://synthex-info.net/"/>
+  </url>
+  <url>
+    <loc>https://synthex-info.net/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://synthex-info.net/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://synthex-info.net/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://synthex-info.net/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://synthex-info.net/work.html</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://synthex-info.net/work.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://synthex-info.net/en/work.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://synthex-info.net/work.html"/>
+  </url>
+  <url>
+    <loc>https://synthex-info.net/en/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://synthex-info.net/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://synthex-info.net/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://synthex-info.net/contact.html"/>
+  </url>
+  <url>
+    <loc>https://synthex-info.net/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://synthex-info.net/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://synthex-info.net/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://synthex-info.net/"/>
+  </url>
+  <url>
+    <loc>https://synthex-info.net/en/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://synthex-info.net/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://synthex-info.net/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://synthex-info.net/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://synthex-info.net/en/work.html</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://synthex-info.net/work.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://synthex-info.net/en/work.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://synthex-info.net/work.html"/>
+  </url>
+</urlset>
